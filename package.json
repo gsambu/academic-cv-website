@@ -1,1 +1,13 @@
-{gsambu/Dr.-Sambasivam-Gnanasekaran}
+{
+  "name": "academic_cv_website",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://gsambu.github.io/academic_cv_website",
+  "scripts": {
+    "predeploy": "echo 'No build needed'",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
